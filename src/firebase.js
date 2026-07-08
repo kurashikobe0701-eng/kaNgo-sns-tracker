@@ -2,14 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Firebase設定 - 後で環境変数に変更してください
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAKdrW6IJ4tHNnCW00Xlo1rJkXLBwArTv4",
+  authDomain: "kango-sns-tracker.firebaseapp.com",
+  projectId: "kango-sns-tracker",
+  storageBucket: "kango-sns-tracker.firebasestorage.app",
+  messagingSenderId: "441955862225",
+  appId: "1:441955862225:web:8dde815607e04d403e27f0"
 };
 
 const app = initializeApp(firebaseConfig);
